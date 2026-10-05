@@ -32,8 +32,6 @@ world.afterEvents.playerSpawn.subscribe(({ player }) => {
   }
 
   deathScoreboard.setScore(player, typeof deathProperty === "number" ? deathProperty : 0);
-
-  world.sendMessage("YAY!");
 });
 
 world.beforeEvents.playerLeave.subscribe(({ player }) => {
