@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Death Scoreboard",
+    "description": "Addon to count player deaths on a scoreboard",
+    "uuid": "80eaa9ae-2757-45a1-877f-8592723e7b0c",
+    "version": [1, 0, 3],
+    "min_engine_version": [1, 26, 10]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "bead98c8-6723-4f42-bcfa-f4ab71b52d2e",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.7.0"
+    }
+  ]
+}
